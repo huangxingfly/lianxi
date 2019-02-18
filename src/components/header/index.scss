@@ -1,0 +1,21 @@
+.head{
+  background: #00a8ff;
+  text-align: center;
+  position: relative;
+  color: #fff;
+  font-weight: bold;
+
+  .back{
+    position: absolute;
+    top: .22rem;
+    left: 0.08rem;
+    width: .58rem;
+    height: .58rem;
+    line-height: .58rem;
+  }
+  .title{
+    height: 1.02rem;
+    line-height: 1.02rem;
+    font-size: 0.4rem;
+  }
+}

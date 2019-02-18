@@ -1,0 +1,36 @@
+.searchIcon{
+
+
+
+  .top{
+    height: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .Search1{
+      width: 90%;
+    }
+  }
+
+  .hotSearch{
+
+
+    .title{
+      font-weight: bold;
+      color: #666;
+      font-size: 0.33rem;
+    }
+    .hotGoods{
+      margin-top: 0.4rem;
+       span {
+         height: 0.68rem;
+         line-height: 0.68rem;
+         background: #f7f7f7;
+         display: inline-block;
+         padding: 0 .21rem;
+         margin:0 .27rem 0.27rem 0;
+       }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+
+/*吸顶盒*/
+.fixTop{
+  /*
+      sticky 没有被纳入标准里
+      可以要移动端用
+      top: 0 优先级高
+      bottom:0
+      让它的父级有滚动条产生
+  */
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  z-index: 999;
+  height: 1.06rem;
+  background: #00a7ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  a{
+    width: 6.94rem;
+    height: 0.72rem;
+    background: #fff;
+    color: #999;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    span{
+      margin-left: .1rem;
+      font-size: .26rem;
+    }
+  }
+}
